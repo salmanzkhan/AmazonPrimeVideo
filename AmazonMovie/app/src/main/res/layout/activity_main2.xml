@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+
+    android:background="@color/colorBackground"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    tools:context="com.example.purva.amazonmovie.MainActivity"
+    >
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textview"
+        android:textSize = "35dp"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true" />
+
+
+
+    <EditText
+
+        android:id = "@+id/commentId"
+        android:hint = "Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="120dp"
+        android:text="admin" />
+
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+
+
+        android:inputType="textPassword"
+        android:ems="10"
+
+        android:layout_below="@+id/commentId"
+
+        android:hint="Password"
+        android:textColor="@android:color/white" />
+
+
+
+
+
+    <Button
+
+        android:text="login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:background="@color/colorTextHint"
+        android:textSize = "20dp"
+        android:id="@+id/buttonR"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView"
+
+        android:src="@drawable/prime"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/textview"
+        android:layout_alignParentTop="true" />
+
+
+</RelativeLayout>

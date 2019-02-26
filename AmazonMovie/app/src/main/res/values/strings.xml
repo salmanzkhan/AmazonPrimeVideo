@@ -1,0 +1,10 @@
+<resources>
+
+
+    <string name="app_name"></string>
+    <string name="hint_name">Name</string>
+
+    <string name="hint_password">Password</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
